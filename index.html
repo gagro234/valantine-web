@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="page1">
+  <h1>Our moments together ✨</h1>
+  <p>This day feels like a movie 🎞️</p>
+  <button onclick="nextPage()">Next</button>
+</div>
+
+<div class="container hidden" id="page2">
+  <h1>Choose a gift 🎁</h1>
+  <div class="gifts">
+    <div class="gift">📷 Memories</div>
+    <div class="gift">⏰ Time together</div>
+    <div class="gift">💌 Love letter</div>
+  </div>
+  <button onclick="nextPage()">Next</button>
+</div>
+
+<div class="container hidden" id="page3">
+  <h1>Will you be my Valentine? 💕</h1>
+  <img src="https://i.imgur.com/4AiXzf8.png" class="bear">
+  <div class="buttons">
+    <button class="yes" onclick="yesClick()">YES</button>
+    <button class="no" onmouseover="moveNo(this)">NO</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

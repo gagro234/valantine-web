@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(#fbeff5, #fff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255,255,255,0.95);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.yes {
+  background: pink;
+}
+
+.no {
+  background: lightgray;
+  position: absolute;
+}
+
+.gifts {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gift {
+  background: #ffe4ec;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bear {
+  width: 150px;
+  margin: 20px 0;
+}
